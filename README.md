@@ -1,5 +1,10 @@
 # random_plotting
 
+## Launch in Binder (Beta)
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/agladstein/random_plotting/master?filepath=prior_testing.ipynb)
+
+
 ## Install
 
 `cd` to the directory you want to work in, then
@@ -13,10 +18,7 @@ Create a virtual environment with the necessary Python packages installed.
 ```bash
 virtualenv pandas_env
 source pandas_env/bin/activate
-pip install pandas
-pip install jupyter
-pip install matplotlib
-pip install ggplot
+pip install -r requirements.txt
 ```
 `virtualenv pandas_env` creates the virtual environment.  
 `source pandas_env/bin/activate` activates the virtual environment.  
