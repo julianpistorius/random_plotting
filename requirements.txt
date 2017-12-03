@@ -5,6 +5,7 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 appnope==0.1.0            # via ipython
+bash-kernel==0.7.1
 bleach==2.1.1             # via nbconvert
 brewer2mpl==1.4.1         # via ggplot
 cycler==0.10.0            # via ggplot, matplotlib
@@ -34,7 +35,7 @@ pandas==0.21.0
 pandocfilters==1.4.2      # via nbconvert
 parso==0.1.0              # via jedi
 patsy==0.4.1              # via ggplot, statsmodels
-pexpect==4.3.0            # via ipython
+pexpect==4.3.0            # via bash-kernel, ipython
 pickleshare==0.7.4        # via ipython
 prompt-toolkit==1.0.15    # via ipython, jupyter-console
 ptyprocess==0.5.2         # via pexpect, terminado
